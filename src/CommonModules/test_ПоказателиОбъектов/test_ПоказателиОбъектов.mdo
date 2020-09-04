@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="106b95e9-f7ae-46fb-b576-8c035898d59f">
+  <name>test_ПоказателиОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели объектов</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

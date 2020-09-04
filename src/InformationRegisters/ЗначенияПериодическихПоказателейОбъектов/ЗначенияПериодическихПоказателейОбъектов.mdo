@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1c0bc743-cd60-4fac-bec1-a8726ef61a2e" extendedConfigurationObject="838f756c-eaff-4a25-ab2f-caa13ae47b53">
+  <producedTypes>
+    <selectionType typeId="5da79d8f-8367-4701-b4a6-ac596f2dbb98" valueTypeId="4930e795-2099-42ec-a9fb-e95282fdf9b2"/>
+    <listType typeId="f65a7eaf-929d-4303-ba05-12e6bf12f976" valueTypeId="04eccce6-2ecd-47b5-9a03-4d907d141fb6"/>
+    <managerType typeId="a3e8c900-0ab9-43c3-866e-7d1e955b63b9" valueTypeId="e86b11ba-7dc7-400d-97e2-1416937670dd"/>
+    <recordSetType typeId="66c9dd7e-0c9d-4b13-a4f1-9d448a23b404" valueTypeId="89f3799b-e371-4d9f-bca2-9672f9b06412"/>
+    <recordKeyType typeId="6a919bc8-7944-49de-9bb0-a1620fc3a932" valueTypeId="e61119ad-a6c7-47e4-98a9-81f9e60143a9"/>
+    <recordType typeId="92b9e30a-7f88-49b6-afdd-46374b470cc1" valueTypeId="43a9b2c9-2507-471e-8d87-6ba1547c21cf"/>
+    <recordManagerType typeId="06703497-722b-4bfa-98dd-b5b32b5b6cfa" valueTypeId="bcf5b49f-84a7-4543-a1b4-ef963a01be06"/>
+  </producedTypes>
+  <name>ЗначенияПериодическихПоказателейОбъектов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:InformationRegister>

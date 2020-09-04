@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e8cb4de1-1b36-4ee6-a474-f2d272121479" extendedConfigurationObject="e0ea69a5-61e0-4c0d-b3a3-d5ea21f94c4c">
+  <producedTypes>
+    <objectType typeId="ce116951-fb20-4f5f-9360-54421400dc12" valueTypeId="0e66ebbe-9831-4058-96d1-b720a7015c6b"/>
+    <refType typeId="ca1717bf-7088-431f-803b-24babf4778a6" valueTypeId="62d2dbb5-ff59-4590-a581-8d6f319cd5da"/>
+    <selectionType typeId="3ddf0ce3-ed90-403f-9d0d-31cc6b3a9179" valueTypeId="e305da37-a399-4bb7-9e75-8e7d765a6a92"/>
+    <listType typeId="e4318c73-26aa-4cd8-a58e-d4e2139b32e8" valueTypeId="aabf3261-99ea-47d6-b685-cf1ef95a5075"/>
+    <managerType typeId="7be56b1b-15a0-4156-b213-ef23127aabf5" valueTypeId="c3e1c1ca-0612-4d63-9da2-e89aead9d20f"/>
+    <containerType typeId="6b757bd1-d1a0-426a-bd74-c7c3bfed92c4" valueTypeId="99f13073-75dc-4fa8-8a20-91acc190e8bb"/>
+  </producedTypes>
+  <name>ПоказателиОбъектов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
+    <type>Checked</type>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>250</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>50</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>50</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

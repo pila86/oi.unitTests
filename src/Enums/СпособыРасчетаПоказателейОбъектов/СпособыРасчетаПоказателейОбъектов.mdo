@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="559424b0-70ce-4b4b-b6f1-567afb6b8015" extendedConfigurationObject="193755da-a257-4844-b3e3-afd0d419c9c8">
+  <producedTypes>
+    <refType typeId="8fcc223f-d2e2-42ad-98f9-ce6f820d489d" valueTypeId="656dd52e-316b-4468-9995-9293b9ac074d"/>
+    <listType typeId="7d84544f-5701-48d3-b44d-dcf63d3ad3c1" valueTypeId="ececfc36-c54e-471c-a4e6-4f87a2c92eb4"/>
+    <managerType typeId="7d82cd9e-bcfd-4a74-97a7-95a37826ff4b" valueTypeId="c1396a1b-9c0d-404d-aeb0-474a7ca0a973"/>
+  </producedTypes>
+  <name>СпособыРасчетаПоказателейОбъектов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

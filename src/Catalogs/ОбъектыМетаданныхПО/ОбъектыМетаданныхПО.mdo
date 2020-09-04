@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0f025d03-395a-40ea-948e-9d361cde4c7f" extendedConfigurationObject="8e132b98-3a7c-46c6-b6c5-fc2f3bd34dfa">
+  <producedTypes>
+    <objectType typeId="0f1f0c76-430d-4274-ac8a-d7475d5d6b79" valueTypeId="3e75eb10-bf57-4b3d-9aae-27173b587ab7"/>
+    <refType typeId="ec7963f6-7601-48b0-936d-9b728b768df5" valueTypeId="3710f53e-c5bb-4715-accf-7598a38186f2"/>
+    <selectionType typeId="35e3b3d1-7cbb-4ec6-ad34-07dbfbfb2436" valueTypeId="1b735439-99bf-48aa-b75b-11386e67c02d"/>
+    <listType typeId="515f1f13-d962-4464-a961-a53a07360f78" valueTypeId="a39d27c4-34ef-4c79-8dfa-5113c3b70eb0"/>
+    <managerType typeId="af03bb10-8f53-48eb-9e9e-1e8bc5b5807a" valueTypeId="9a4958c2-ab9c-48c3-a76a-31891d409896"/>
+  </producedTypes>
+  <name>ОбъектыМетаданныхПО</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4bb639a1-6eae-4685-92f6-bae477bcbf5e" extendedConfigurationObject="b9914e3c-6dd6-4ee4-bae5-abc4c1aea1f2">
+    <name>Имя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b9d7c9e4-eebe-4342-81cb-d9bda1007f68" extendedConfigurationObject="47eea44c-c3bf-4960-be3f-f0af4d4c4f2c">
+    <name>Синоним</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9d7298a6-f273-43a2-b860-84d29f2efd0d" extendedConfigurationObject="58c34460-835b-4a86-8689-13fb90abeff0">
+    <name>ПолноеИмя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>430</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="090ef001-e8bb-4c72-8480-bd9ba95df88e" extendedConfigurationObject="aff23c70-9e73-4fe7-a9d7-945835fdec4a">
+    <name>МожетИметьПоказатели</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="090892a8-4825-4292-8989-78ef2dc81348" extendedConfigurationObject="9beb7e22-050b-4a2d-b1fa-6a2adcc42c51">
+    <name>ЯвляетсяТриггером</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

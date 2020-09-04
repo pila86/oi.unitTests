@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9bae1065-a7a6-4119-bd15-e1e443c4d874">
+  <name>ПоказателиОбъектов.МодульныеТесты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модульные тесты</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <sessionModule>Extended</sessionModule>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4fdb1bf8-36b5-4b1e-a469-2a3016560607"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="5cf1420d-6b9f-46d8-949b-e1c5c2cf7620"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="728617ac-f4bc-4b03-b61a-320af2b111db"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="3cc93d06-b7ff-4e91-8750-dbb4ab43ffba"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="83c690aa-4608-4c0e-bf83-121920958f8a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="493ef23e-e562-455b-bb26-7f93d3c7f4c5"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>test_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.16</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
+  <languages uuid="e38f476a-f895-4204-b7c9-3f6804195f9c">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.test_ПоказателиОбъектов</commonModules>
+  <commonModules>CommonModule.test_ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.test_ОбщегоНазначенияПовтИсп</commonModules>
+  <catalogs>Catalog.ОбъектыМетаданныхПО</catalogs>
+  <enums>Enum.ПериодичностьПоказателяОбъекта</enums>
+  <enums>Enum.СпособыРасчетаПоказателейОбъектов</enums>
+  <informationRegisters>InformationRegister.ЗначенияПериодическихПоказателейОбъектов</informationRegisters>
+  <informationRegisters>InformationRegister.ЗначенияПоказателейОбъектов</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ПоказателиОбъектов</chartsOfCharacteristicTypes>
+</mdclass:Configuration>
